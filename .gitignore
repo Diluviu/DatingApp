@@ -483,3 +483,15 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 API/appsettings.json
+
+# Ignore common SSL certificate and key files
+*.crt
+*.pem
+*.key
+*.csr
+*.pfx
+*.cer
+*.der
+*.jks
+*.p12
+*.srl
